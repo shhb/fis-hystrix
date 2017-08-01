@@ -25,6 +25,7 @@ spec:
         openshiftDeploy(deploymentConfig: 'definition')
         stage 'smoke test current release'
         sh 'curl http://gateway-fis-bby-ca-hysterix.cloudapps.rhneolabs.com/api/definition/camel | grep -i "genus"'
+        }
     type: JenkinsPipeline
   triggers:
   - github:
