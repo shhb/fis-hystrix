@@ -25,6 +25,7 @@ public class DefinitionService {
 	  dictionaryMap.put("occupy", "To take or fill up");
 	  dictionaryMap.put("poll", "To take a sampling of the attitudes or opinions of");
 	  dictionaryMap.put("test123", "Test adding a new definition to API");
+	  dictionaryMap.put("toque", "A typical knit winter hat without a brim");
 	}
 	
 	public Result lookup(String word) {
