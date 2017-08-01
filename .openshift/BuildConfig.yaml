@@ -2,7 +2,7 @@ apiVersion: v1
 kind: BuildConfig
 metadata:
   annotations:
-    pipeline.alpha.openshift.io/uses: '[{"name": "definition-pipeline", "namespace": "",
+    pipeline.alpha.openshift.io/uses: '[{"name": "definition", "namespace": "",
       "kind": "DeploymentConfig"}]'
   creationTimestamp: 2017-02-01T23:09:54Z
   labels:
