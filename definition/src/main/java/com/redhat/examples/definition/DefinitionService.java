@@ -24,6 +24,7 @@ public class DefinitionService {
 	  dictionaryMap.put("locate", "To identify or discover the place or location of");
 	  dictionaryMap.put("occupy", "To take or fill up");
 	  dictionaryMap.put("poll", "To take a sampling of the attitudes or opinions of");
+	  dictionaryMap.put("toque", "A type of hat with a narrow brim or no brim at all");
 
 	}
 	
