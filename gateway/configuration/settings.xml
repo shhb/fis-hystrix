@@ -23,13 +23,13 @@
   <profiles>
     <profile>
       <id>fuse.repos</id>
-      
+
       <repositories>
-        
+
         <repository>
           <id>maven.central</id>
           <name>Maven Central</name>
-          <url>https://repo1.maven.org/maven2</url>
+          <url>http://repo1.maven.org/maven2</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -38,12 +38,12 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
- 
-        
+
+
         <repository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>https://maven.repository.redhat.com/ga</url>
+          <url>http://maven.repository.redhat.com/ga</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -56,7 +56,7 @@
         <repository>
           <id>fusesource.m2</id>
           <name>FuseSource Maven Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+          <url>http://repo.fusesource.com/nexus/content/groups/public</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -65,11 +65,11 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
-        
+
         <repository>
           <id>fusesource.ea</id>
           <name>FuseSource Early Access Maven Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+          <url>http://repo.fusesource.com/nexus/content/groups/ea</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -78,7 +78,7 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
-        
+
         <repository>
           <id>repository.jboss.org</id>
           <name>JBoss.org Maven Repository</name>
@@ -91,12 +91,12 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
- 
-        
+
+
         <repository>
           <id>redhat.ea</id>
           <name>Red Hat Early Access Repository</name>
-          <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+          <url>http://maven.repository.redhat.com/earlyaccess/all</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -105,17 +105,17 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
- 
-        
-        
+
+
+
       </repositories>
 
       <pluginRepositories>
-        
+
         <pluginRepository>
           <id>maven.central</id>
           <name>Maven Central</name>
-          <url>https://repo1.maven.org/maven2</url>
+          <url>http://repo1.maven.org/maven2</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -124,12 +124,12 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </pluginRepository>
- 
-        
+
+
         <pluginRepository>
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
-          <url>https://maven.repository.redhat.com/ga</url>
+          <url>http://maven.repository.redhat.com/ga</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -138,12 +138,12 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </pluginRepository>
- 
-        
+
+
         <pluginRepository>
           <id>redhat.ea</id>
           <name>Red Hat Early Access Repository</name>
-          <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+          <url>http://maven.repository.redhat.com/earlyaccess/all</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -152,7 +152,7 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </pluginRepository>
-        
+
         <pluginRepository>
           <id>repository.jboss.org</id>
           <name>JBoss.org Maven Repository</name>
@@ -165,11 +165,11 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </pluginRepository>
- 
+
         <pluginRepository>
           <id>fusesource.ea</id>
           <name>FuseSource Early Access Maven Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+          <url>http://repo.fusesource.com/nexus/content/groups/ea</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -177,12 +177,12 @@
             <enabled>true</enabled>
             <updatePolicy>never</updatePolicy>
           </releases>
-        </pluginRepository>       
+        </pluginRepository>
 
         <pluginRepository>
           <id>fusesource.ga</id>
           <name>FuseSource Maven Repository</name>
-          <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+          <url>http://repo.fusesource.com/nexus/content/groups/public</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
@@ -190,7 +190,7 @@
             <enabled>true</enabled>
             <updatePolicy>never</updatePolicy>
           </releases>
-        </pluginRepository> 
+        </pluginRepository>
 
       </pluginRepositories>
     </profile>

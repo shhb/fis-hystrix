@@ -22,7 +22,7 @@
         {
             "description": "Git source URI for application",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/sabre1041/fis-hystrix.git",
+            "value": "https://github.com/ghoelzer-rht/fis-hystrix.git",
             "required": true
         },
         {
