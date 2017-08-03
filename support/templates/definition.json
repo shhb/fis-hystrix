@@ -104,7 +104,7 @@
                     "sourceStrategy": {
                         "env": [
                             {
-                                 "name": "GIT_SSL_NO_VERIFY"
+                                 "name": "GIT_SSL_NO_VERIFY",
                                  "value": true
                             }
                         ],
